@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+:root{
+    --Texto_escuro: #14183E;
+    --Azul: #4372EB;
+    --Cinza_claro: #9A9EA6;
+}
+
+body{
+    font-family: "Plus Jakarta Sans";
+}
+
+#container_01{
+    border: solid 1px var(--Cinza_claro);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+}
+
+
+#imagem_dest{
+    margin-left: 30px;
+}
+
+#icone_pessoa{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70%;
+    
+}
+
+
+#text_01{
+    margin-left: 123px;
+    margin-top: 220px;
+    height: 800px;
+    width: 800px;
+}
+
+#text_01 h1{
+    font-weight: 1000;
+    font-size: 75px;
+    color:  var(--Texto_escuro);
+}
+
+span{
+    color: var(--Azul);
+}
+
+#text_01 p{
+    font-size: 16px;
+}
+
+#botao_cd{
+    margin-top: 40px;
+    height: 75px;
+    border-radius: 10px 10px 10px 10px;
+    width: 220px;
+    background-color: var(--Azul);
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+
+#play{
+    margin-left: 80px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-top: -55px;
+}
+
+#img_viaj{
+    display: flex;
+    justify-content: right;
+    margin-top: -850px;
+    height: 750px;
+}
+
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#latam{
+    height: 150px;
+    
+}
+
+#expedia{
+    margin-top: 40px;
+}
+
+#qantas{
+    margin-top: 50px;
+}
+
+#alitalia{
+    margin-top: 40px;
+}
+
+#lugares{
+    margin-top: 150px;
+    margin-left: 140px;
+}
+
+#lugares h1{
+    font-weight: 1000;
+    color: var(--Texto_escuro);
+}
+
+#lugares p{
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+
