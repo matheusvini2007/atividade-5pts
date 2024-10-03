@@ -106,19 +106,108 @@ span{
     margin-top: 40px;
 }
 
-#lugares{
+#lugares_text{
     margin-top: 150px;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
-#lugares h1{
+#lugares_text h1{
     font-weight: 1000;
     color: var(--Texto_escuro);
 }
 
-#lugares p{
+#lugares_text p{
     font-size: 20px;
     font-weight: 1000;
 }
 
+#lugares{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+#play i{
+    color: var(--Azul);
+    margin-right: 10px;
+}
+
+#noronha{
+    width: 17rem;
+    height: 24rem;
+    z-index: 10;
+    border-radius: 1rem;
+    background-image: url(imagens/destino2.png);
+    background-size: cover;
+    display: flex;
+    margin-right: 4rem;
+}
+
+#atlas{
+    width: 17rem;
+    height: 24rem;
+    z-index: 10;
+    border-radius: 1rem;
+    background-image: url(imagens/destino1.png);
+    background-size: cover;
+    display: flex;
+    margin-right: 4rem;
+}
+
+#paraiso{
+    width: 17rem;
+    height: 24rem;
+    z-index: 10;
+    border-radius: 1rem;
+    background-image: url(imagens/destino5.png);
+    background-size: cover;
+    display: flex;
+    margin-right: 4rem;
+}
+
+#holanda{
+    width: 17rem;
+    height: 24rem;
+    z-index: 10;
+    border-radius: 1rem;
+    background-image: url(imagens/destino4.png);
+    background-size: cover;
+    display: flex;
+    margin-right: 4rem;
+}
+
+#seq-img{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    justify-content: center;
+    display: flex;
+}
+
+.text{
+    width: 10rem;
+    margin-top: 19rem;
+    background-color: #d1d3d6ca;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0.7rem;
+    font-weight: bold;
+}
+
+#span{
+    color: #000755;
+}
+
+#reserv{
+    margin-top: 150px;
+    margin-left: 100px;
+
+}
+
+#reserv p{
+    font-size: 20px;
+    font-weight: 1000;
+
+}
+
+#reserv h1{
+    font-weight: 1000;
+    color: var(--Texto_escuro);
+}
