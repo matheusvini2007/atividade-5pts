@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 
 :root{
     --Texto_escuro: #14183E;
@@ -198,7 +199,6 @@ span{
 #reserv{
     margin-top: 150px;
     margin-left: 100px;
-
 }
 
 #reserv p{
@@ -208,6 +208,161 @@ span{
 }
 
 #reserv h1{
+    font-size: 50px;
     font-weight: 1000;
     color: var(--Texto_escuro);
 }
+
+#img_reserv{
+margin-top: -600px;
+margin-left: 800px;
+
+}
+
+
+#div_lupa{
+    display: flex;
+}
+#lupa{
+    background-color: rgb(215, 215, 194);
+    font-size: 25px;
+    height: 60px;
+    width: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#lupa p{
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+
+#text_lupa strong{
+    font-size: 20px;
+}
+
+#text_lupa h3{
+    font-size: 15px;
+}
+
+#div_lapis{
+    display: flex;
+}
+
+#lapis{
+    background-color: rgb(215, 215, 194);
+    font-size: 25px;
+    height: 60px;
+    width: 50px;
+    margin-right: 30px;
+    margin-top: 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#lapis p{
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+#text_lapis{
+    margin-top: 30px;
+}
+
+#text_lapis strong{
+    font-size: 20px;
+}
+
+#text_lapis h3{
+    font-size: 15px;
+}
+
+#div_coracao{
+    display: flex;
+}
+
+#coracao{
+    background-color: rgb(215, 215, 194);
+    font-size: 25px;
+    height: 60px;
+    width: 50px;
+    margin-right: 30px;
+    margin-top: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#coracao p{
+    margin-left: 11px;
+    margin-top: 15px;
+}
+
+#text_coracao{
+    margin-top: 40px;
+}
+
+#text_coracao strong{
+    font-size: 20px;
+}
+
+#text_coracao h3{
+    font-size: 15px;
+}
+
+#text_map{
+    margin-top: -40px;
+}
+
+#mapa{
+    margin-top: 70px;
+}
+
+#icone{
+    margin-top: 80px;
+}
+
+#text_map h2{
+    display: flex;
+    justify-content: center;
+}
+
+#text_map h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#text_map p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#mapa{
+    display: flex;
+    justify-content: center;
+}
+
+#icone{
+    display: flex;
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
