@@ -2,6 +2,10 @@
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 
+@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
 :root{
     --Texto_escuro: #14183E;
     --Azul: #4372EB;
@@ -343,23 +347,212 @@ margin-left: 800px;
     justify-content: center;
 }
 
-#icone{
+#icones_geral{
     display: flex;
-    background-color: gray;
-    width: 50px;
-    height: 50px;
-    border-radius: 30px 30px 30px 30px;
 }
 
+#icone_mapa{
+    margin-left: 130px;
+    margin-top: 70px;
+    border-radius: 60px 60px 60px 60px;
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+}
+
+#div_icone{
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 25px;
+
+}
+
+#text_icone1{
+    color: var(--Texto_escuro);
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 280px;
+}
+
+#icone_coracao1{
+    margin-left: 60px;
+    margin-top: 70px;
+    border-radius: 60px 60px 60px 60px;
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+}
+
+#icn_cora{
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 25px;
+}
+
+#text_coracao1{
+    color: var(--Texto_escuro);
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 280px;
+}
+
+#icone_pessoas{
+    margin-left: 90px;
+    margin-top: 70px;
+    border-radius: 60px 60px 60px 60px;
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+}
+
+#icn_pessoa{
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 25px;
+}
+
+#text_pesso{
+    color: var(--Texto_escuro);
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 300px;
+}
+
+#text_destino{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#text_destino span{
+    font-weight: 1000;
+}
+
+#text_destino h1{
+    font-size: 44px;
+    font-weight: 1000;
+}
+
+#caixa_bromo{
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+#text_bromo{
+    width: 300px;
+    margin-left: 30px;
+}
+
+#video{
+    display: flex;
+    justify-content: end;
+    margin-top: -430px;
+    margin-right: 20px;
+}
+
+#video img{
+    width: 1100px;
+}
+
+.container img{
+    z-index: 10;
+    width: 75rem;
+    height: 15rem;
+  }
+
+.container-7{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imagens/destino5.png');
+  background-size: cover;
+  background-position: left;
+  width: 75rem;
+  border-radius: 1rem;
+  height: 13rem;
+  margin-top: -10rem;
+  margin: auto;
+  }
+
+
+.texto{
+    color: #fff;
+    width: 50rem;
+    display: block;
+  }
 
 
 
+  .texto p{
+    margin-top: 2rem;
+  }
 
+  #div-depoimentos .paragrafo_texto{
+    color: #4372EB;
+    font-weight: bold;
+    font-size: 1.4rem;
+    }
+    
+    #div-depoimentos{
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        display: block;
+        z-index: 10;
+        }
 
+        #divs-depoimentos{
+            justify-content: center;
+            margin: auto;
+            text-align: center;
+            margin-right: 10rem;
+            }
+    
+        #div-depoimentos h1{
+            font-size: 3rem;
+            display: block;
+            margin: 3rem 0;
+            }
+    
+        #sect-depoimentos{
+            margin: 4rem 15rem;
+        }
+    
+        #div-avatar1{
+       width: 20rem;
+       background-color: #e5e5e5a9;
+       height: 21rem;
+       padding: 1rem;
+       border-radius: 1rem;
+       box-shadow: 6px 6px 6px #9A9EA6;
+       text-align: center;
+       display: block !important;
+        }
 
+        #sect-depoimentos{
+            margin-top: 10rem;
+            display: block !important;
+        }
+    
+        #div-avatar1 p{
+            text-align: center;
+            width: 14rem;
+            margin-left: 3rem;
+            color: #9A9EA6;
+             }
+    
+        #divs-depoimentos{
+            display: flex;
+            margin-top: 5rem;
+            margin-left: 6rem;
+        }
+    
+        footer{
+            margin-top: 8rem;
+            margin-left: 5rem;
 
-
-
+        }
+    
+        #emojis-contato{
+            margin-top: 25px;
+        }
 
 
 
